@@ -4,21 +4,103 @@
     box-sizing: border-box;
 }
 /* 
-============******===========
-Navigation css style
+/* >>>>>>>>>>>>>>Font-style<<<<<<<<<<<<<<<<< */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@500&display=swap');
+/* >>>>>>>>>>>>>>Font-style<<<<<<<<<<<<<<<<< */
+/* ============variable-define-start============ */
+:root{
+    --primary-color:#F7DC6F ;
+    --secondar-color:#1E8449;
+    --white-color:#FDFEFE;
+    --black-color:#1C2833;
+    --secondary-font:  'Quicksand', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primary-font);
+}
+/* ============variable-define-end============ */
+
+/* --------------Custom-scroll-bar------------- */
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--white-color);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondar-color);
+}
+/* --------------Custom-scroll-bar------------- */
+/* ///////////Custom-css\\\\\\\\\\\\\ */
+h1{
+    color: var(--white-color);
+}
+span{
+    color: #ffcc00;
+}
+p{
+    color: var(--white-color);
+}
+/* ///////////Custom-css\\\\\\\\\\\\\ */
+
+
+/* ============******=========== */
+/*Navigation css style
 ============******===========
 */
 .nav-img{
     width: auto;
-    height: 3rem;
+    height: 2rem;
 }
+
+.home{
+    background: url(./Pizza-images/images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
 /* 
 ============*******==========
 Navigation css style
 ============*******==========
 */
+
+
+
 /* font-style-color-start */
 .fa-check{
-    
+    color: #F7DC6F
 }
 /* font-style-color-end */
+/* *********
+carosel part start
+************ */
+.testimonial-section{
+    background-color: var(--secondar-color);
+}
+.carousel-inner{
+    height: 15rem;
+    background-color: var(--black-color);
+    margin-bottom: 5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10rem;
+}
+ .carousel-item{
+    margin-top: 10rem;
+    
+} 
+.carousel-caption img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+/* *********
+Carosel-part-end
+************ */
