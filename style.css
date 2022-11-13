@@ -9,7 +9,7 @@
 /* >>>>>>>>>>>>>>Font-style<<<<<<<<<<<<<<<<< */
 /* ============variable-define-start============ */
 :root{
-    --primary-color:#F7DC6F ;
+    --primary-color:#ffbc04 ;
     --secondar-color:#1E8449;
     --white-color:#FDFEFE;
     --black-color:#1C2833;
@@ -44,13 +44,13 @@ span{
     color: #ffcc00;
 }
 p{
-    color: var(--white-color);
+    color: var(--black-color);
 }
 /* ///////////Custom-css\\\\\\\\\\\\\ */
 
 
 /* ============******=========== */
-/*Navigation css style
+/*Navigation css style start
 ============******===========
 */
 .nav-img{
@@ -67,23 +67,85 @@ p{
 
 /* 
 ============*******==========
-Navigation css style
+Navigation css style End
 ============*******==========
 */
 
 
+/* *******SEction 1 style********** */
+.top-banner{
+    background: url(./Pizza-images/images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+/* *******SEction 1 style********** */
+
+/*
+============
+main-btn start
+=-=-=-=-=-=- 
+ */
+.main-btn{
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    width: fit-content;
+    border: 2px solid var(--primary-color)   ;
+    padding:0.323px 0.893rem ;
+    border-radius: 0.594rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    transition: all 1s ease-in-out 0s;
+    
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    
+}
+/*
+============
+main-btn-End
+=-=-=-=-=-=- 
+ */
 
 /* font-style-color-start */
 .fa-check{
     color: #F7DC6F
 }
 /* font-style-color-end */
+/* -=-=-=-=-card-border-box-=-=-=-=-=- */
+.boxx{
+    box-shadow: 2px 4px 10px gray;
+    /* -webkit-transition: all 1s ease-in 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease-in 0s;
+    transition: all 1s ease-in 0s; */
+}
+.scaless{
+    height: auto;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.scaless img{
+    width: 100%;
+    display: block;
+    transition: transform 2s ease-in-out 0s;
+}
+.scaless:hover img{
+    transform: scale(1.1);
+}
+/* -=-=-=-=-card-border-box-=-=-=-=-=- */
 /* *********
 carosel part start
 ************ */
-.testimonial-section{
+ .testimonial-section{
     background-color: var(--secondar-color);
 }
+
 .carousel-inner{
     height: 15rem;
     background-color: var(--black-color);
@@ -100,7 +162,47 @@ carosel part start
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+} 
+
+ .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
 }
+.carousel-indicators button .active{
+    opacity: 1;
+} 
+
 /* *********
 Carosel-part-end
 ************ */
+
+
+/* ^^^^^^^^^^^^^Footer-part-start^^^^^^^^^^^^ */
+.iconn>p>i{
+    transition: all 2s ease-in-out;
+    font-size: 2rem;
+}
+.iconn>p:hover i{
+    transform: scale(1.6);
+    color: var(--primary-color);
+}
+.newsletter .main-btn{
+    background-color: var(--white-color);
+    border: #FDFEFE;
+}
+.newsletter:hover .form-control{
+    background-color: var(--primary-color);
+}
+.newsletter:hover .main-btn{
+    background-color: var(--primary-color);
+}
+.newsletter:hover.form-control,.newletter:focus{
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+/* ^^^^^^^^^^^^^Footer-part-start^^^^^^^^^^^^ */

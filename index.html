@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-              <!--(((((((((((((((((Font-awesome-icon-style-link)))))))))))))))))  -->
+              <!--(((((((((((Font-awesome-icon-style-link))))))))))))  -->
               <script src="https://kit.fontawesome.com/6cab9874b2.js" crossorigin="anonymous"></script>
               <!--(((((((((((((((((Font-awesome-icon-style-link)))))))))))))))))  -->
 
@@ -16,73 +16,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
               <!-- ///////////Bootstrap cdn link\\\\\\\\\\ -->
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar"data-bs-offset="100">
 
                   <!--********Navigation part start******  -->
 
-<header class="home">
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container">
-    <a class="navbar-brand" href="#">
-    <img class="nav-img" src="./Pizza-images/images/logo.png" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ms-auto">
-    <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">About Us</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#">Explore Foods</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link">Reviews</a>
-     </li>
-    <li class="nav-item">
-    <a class="nav-link"><button class="main-btn">12000 345 123</button></a>
-     </li>
-    </ul>
-    </div>
-    </div>
-     </nav>
-
+                  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img class="nav-img" src="./Pizza-images/images/bg/big-pizza-logo-vector-31052130.jpg" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Menu">Food-Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#About-Us">About-Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link "href="#Explore-Foods">Explore-Foods</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#review">Review</a>
+                          </li>
+                          <li class="nav-item">
+                            <button class="main-btn">234 321 534</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
                   <!--********Navigation part End********  -->
                  
                <!-- **************Section-1 top-banner************** -->
+
 <section id="home">
-  <div class="container-fluid px-0 ">
-    <div class="container ">
-      <div class="row ">
-        <div class="col-lg-6 col-md-4 col-8">
-          <div class="home-content ">
-            <h1 class="pt-5">UNLIMITED <br>MEDIUM <span>PIZZAS</span></h1>
-            <h4 class="text-success">Medium-2-topping*pizza</h4>
-            <p style="color:#adb5bd"><small>*Additional charge for premium toppings.Minimum of 2 required.</small></p>
-            <div>
-              <button class="main-btn ps-2">Order Now<i class="fa-solid fa-basket-shopping px-2"></i></button>
-            </div>
-          </div>
-          
-         </div>
-        </div>
-        
-      </div>
-      
-    </div>
+<div class="container-fluid top-banner">
+  <div class="title container">
+    <h1 class="text-success">UNLIMITED <br> MEDIUM <span>PIZZAS</span></h1>
+          <h2>Medium 2 Topping* Pizzas</h2>
+          <p> <small>Additional Charge for Premium toppings. Minimum of 2 required.</small></p>
+          <div><button class="main-btn">Order Now <i class="fa-solid fa-basket-shopping"></i></button></div>
   </div>
+</div>
 </section>
-</header>
+
                <!-- **************Section-1 top-banner End**************** -->
               
                <!-- **************Section-2 start****************** -->
-<section id="About-Us">
+<section id="Menu">
+
 <div class="container my-5">
-  <h2 class="text-center text-success my-5">Our Menu</h2>
+  <h2 class="text-center text-success ">Our Menu</h2>
+  <hr class="mx-5 mb-5">
   <div class="row">
     <div class="col-lg-2 col-md-4 col-sm-6  col-8">
       <div class="card border-0">
@@ -150,8 +143,10 @@
 </section>
                <!-- **********Our-Menu-Section-2 end*************** -->
             <!-- **********About-us-Section-(3) Start ************** -->
-<section id="About-Us my-5">
+<section id="About-Us">
   <div class="container-fluid bg-dark">
+    <h2 class="text-success text-center  ">About Us</h2>
+    <hr class="mx-5 bg-success  my-5 ">
     <div class="container ">
       <div class="row align-items-center">
         <div class="col-lg-6 col-12 my-2 ">
@@ -195,43 +190,57 @@
 
               <!-- ***////***Explore-food-section-start***\\\\ -->
 
-<section id="Explore-foods" class="my-5">
+<section id="Explore-Foods" class="my-5">
 
   <h2 class="text-center text-success">Explore Our Foods</h2>
+  <hr class="mx-5">
   <p class="text-center container mb-5 px-5"
   style="color: #7d8286c6;"><small class="container mx-auto">Founded in 2018, we set out to hunt down those under the radar hidden gems around the UK. Everyone has their favourites and we want to find the best of the best! Fast-food lover Matt started reviewing local take-out restaurants in and around the Cambridgeshire area and began uploading them to Facebook.
   </small></p>
   <div class="container ">
-  <div class="row mx-auto">
-    <div class="col-lg-4 col-md-6 col-12 ">
-      <div class="card rounded-4">
-        <img class="img-fluid  rounded-4" src="./Pizza-images/images/img/img-3.jpg" alt="">
+  <div class="row mx-auto ">
+    <div class="col-lg-4 col-md-6 col-12 scaless">
+      <div class="card rounded-4  p-3 mb-5 bg-body rounded boxx">
+        <div class="scaless">
+
+          <img class="img-fluid  rounded-4" src="./Pizza-images/images/img/img-3.jpg" alt="">
+        </div>
         <div class="card-body">
           <div class="card-title">
-            <p class="fw-bold">10 Reasons To Do A Digital Detox Challenge</p>
+            <p class="fw-bold text-dark">10 Reasons To Do A Digital Detox Challenge</p>
             <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto nobis velit at esse aperiam.</small></p>
           </div>
+          
+            <button class="main-btn">Read more...</button>
+          
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="card rounded-4">
+    <div class="col-lg-4 col-md-6 col-12 scaless">
+      <div class="card rounded-4  p-3 mb-5 bg-body rounded boxx">
+        <div class="scaless">
         <img class="img-fluid rounded-4" src="./Pizza-images/images/img/img-4.jpg" alt="">
+        </div>
         <div class="card-body">
           <div class="card-title">
             <p class="fw-bold">The Ultimate Hangover Burger:Egg In A Hole Burger Grilled Cheese</p>
             <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto nobis velit at esse aperiam.</small></p>
           </div>
+          <button class="main-btn">Read more...</button>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="card rounded-4">
-        <img class="img-fluid rounded-4" src="./Pizza-images/images/img/img-5.jpg" alt="">
+    <div class="col-lg-4 col-md-6 col-12 scaless">
+      <div class="card rounded-4  p-3 mb-5 bg-body rounded boxx">
+        <div class="scaless">
+
+          <img class="img-fluid rounded-4" src="./Pizza-images/images/img/img-5.jpg" alt="">
+        </div>
         <div class="card-body">
           <div class="card-title">
             <p class="fw-bold">Traditional Soft Pretzels With Sweet Beer Chese</p>
             <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto nobis velit at esse aperiam.</small></p>
+            <button class="main-btn">Read more...</button>
           </div>
         </div>
       </div>
@@ -244,98 +253,92 @@
 
 
             <!-- ***/\/\/\section-Testimonial***/\/\/\ -->
+
 <section id="review">
-<div class="wrapper testimonial-section">
-  <div class="container text-center">
-    <div class="text-center pb-5">
-      <h2 class="text-light text-center py-5">Testimonial</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-10 col-12 offset-lg-1">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
-          <div class="carousel-inner container-fluid ">
-            <div class="carousel-item active">
-              <div class="carousel-caption">
-                <img src="./Pizza-images/images/review/review-1.jpg" class="d-inline-block img-fluid" alt="reviewer-1">
-                <p>"Far far away, behind the word mountains, far from the countries vokalia and consonantia,there live the blind text.</p>
-                <h5>john waker</h5>
-              </div>
+  <div class="testimonial-section container-fluid">
+    <div class="container-fluid">
+      <h2 class="text-center text-dark pt-5">Testimonial</h2>
+      <hr class="py-5 mx-5">
+      <div class="row ">
+        <div class="col-lg-10 col-12 offset-lg-1">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
-            <div class="carousel-item">
-             
-              <div class="carousel-caption">
-                <img src="./Pizza-images/images/review/review-2.jpg" class="d-inline-block img-fluid" alt="reviewer-2">
-                <p>Burgers are a delectable part of American cuisine. Grilled, broiled, or cooked in a skillet, they are an excellent savory slate of opportunity for dozens of toppings and sides.</p>
-                <h5>jennifer mili</h5>
+            <div class="carousel-inner container-fluid">
+              <div class="carousel-item active">
+                <div class="carousel-caption ">
+                  <img src="./Pizza-images/images/review/review-1.jpg" class="d-inline-block img-fluid" alt="reviewer-1">
+                  <p class="text-light">Pizza Hut says the Melts feature two slices of its Thin N Crispy crust loaded with toppings and cheese, folded over using basic crust origami, and baked to melty perfection</p>
+                  <h5>jordan Mile</h5>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item">
+              <div class="carousel-item active">
+                <div class="carousel-caption ">
+                  <img src="./Pizza-images/images/review/review-2.jpg" class="d-inline-block img-fluid" alt="reviewer-2">
+                  <p class="text-light">Sooo, this involves smooshing a Rolo on top of a pretzel using a pecan. The act of smooshing things together does sound delightful.</p>
+                  <h5>Daniel mili</h5>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="carousel-caption ">
+                  <img src="./Pizza-images/images/review/student-1.png" class="d-inline-block img-fluid" alt="student-2">
+                  <p class="text-light">I get the feeling were going to see another Dunkin Box O Chocolates for Valentine Day next year. </p>
+                  <h5>jackey harsh</h5>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="carousel-caption ">
+                  <img src="./Pizza-images/images/review/student-2.png" class="d-inline-block img-fluid" alt="student-2">
+                  <p class="text-light">The fruitcake is a hot mess of ingredients that somehow became a holiday staple. It’s also one of those things that people either love or instantly throw away when the giver of the fruitcake is not looking.</p>
+                  <h5>Angelena mash</h5>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="carousel-caption ">
+                  <img src="./Pizza-images/images/review/student-3.png" class="d-inline-block img-fluid" alt="reviewer-1">
+                  <p class="text-light">Poor Basic 4 Cereal. It gets no sock love. It doesn’t get any love. Someone knit at Basic 4 Cereal sock. It doesn’t have to be a pair.</p>
+                  <h5>Leonel johny</h5>
+                </div>
+              </div>
               
-              <div class="carousel-caption">
-                <img src="./Pizza-images/images/review/student-1.png" class="d-inline-block img-fluid" alt="...">
-                <p class="">Burgers are a delectable part of American cuisine. Grilled, broiled, or cooked in a skillet, they are an excellent savory slate of opportunity for dozens of toppings and sides.</p>
-                <h5>Jonson</h5>
-              </div>
-              </div>
-              <div class="carousel-item">
-              <div class="carousel-caption">
-                <img src="./Pizza-images/images/review/student-2.png" class="d-inline-block img-fluid" alt="...">
-                <p class="">My relationship with coffee can best be described as a fairweather friend; when things are light and sweet, I’m the biggest fan, but the second it gets dark and bitter, I’m out of there</p>
-                <h5>Lotussy</h5>
-              </div>
-              </div>
-              <div class="carousel-item">
-
-              
-              <div class="carousel-caption">
-                <img src="./Pizza-images/images/review/student-3.png" class="d-inline-block img-fluid" alt="...">
-                <p class="">I was happy to see it look fairly close to the promotional materials. The first sip was mostly a mouthful of the crunchy cookie butter crumble, but once the cold brew broke through, I got a better sense of the overall drink.</p>
-                <h5>Michele</h5>
-              </div>
-
             </div>
-
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </div>
   </div>
-</div>
 </section>
             <!-- ***/\/\/\section-Testimonial***/\/\/\ -->
 
-            <!-- >>>>>>>Footer<<<<<<<<<< -->
+            <!-- >>>>>>>>>Footer<<<<<<<<<< -->
 
 <section id="footer"class="container-fluid">
 <div class="row  bg-dark py-5">
   <div class="col-lg-6 col-md-4 ms-auto">
-    <div class="d-flex ">
-      <p class="px-2 text-white"><i class="fa-brands fa-facebook"></i></p>
-      <p class="px-2 text-white"><i class="fa-brands fa-instalod"></i></p>
-      <p class="px-2 text-white"><i class="fa-brands fa-twitter"></i></p>
-      <p class="px-2 text-white"><i class="fa-brands fa-youtube"></i></p>
-      <p class="px-2 text-white"><i class="fa-brands fa-linkedin"></i></p>
-      <p class="px-2 text-white"><i class="fa-brands fa-instagram"></i></p>
+    <div class="d-flex iconn">
+      <p class="px-2 text-danger"><i class="fa-brands fa-facebook"></i></p>
+      <p class="px-2 text-danger"><i class="fa-brands fa-instalod"></i></p>
+      <p class="px-2 text-danger"><i class="fa-brands fa-twitter"></i></p>
+      <p class="px-2 text-danger"><i class="fa-brands fa-youtube"></i></p>
+      <p class="px-2 text-danger"><i class="fa-brands fa-linkedin"></i></p>
+      <p class="px-2 text-danger"><i class="fa-brands fa-instagram"></i></p>
     </div>
   </div>
   <div class="col-lg-4 col-md-3 me-auto">
-    <div class="form-floating mb-3 d-flex">
+    <div class="form-floating mb-3 d-flex newsletter">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
       <button class="main-btn px-2">Subscribe</button>
